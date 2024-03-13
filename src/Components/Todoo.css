@@ -1,0 +1,76 @@
+.container{
+    width: 30%;
+    background-color: rgb(114, 43, 180);
+    border: none;
+    padding: 30px;
+    margin-top: 5%;
+    margin-left: 35%;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.form-group{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    width: auto;
+}
+button{
+    margin-left: 10px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    width: 20%;
+    font-weight: bold;
+}
+button:hover{
+    background-color: rgb(222, 199, 244);
+    color: black;
+    cursor: pointer;
+}
+.list{
+    margin-top: 30px !important;
+}
+li,ul{
+    margin-bottom: 15px;
+    margin-left: -12px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.logos{
+    left: 10px;
+    padding: 5px;
+}
+.list-items{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    color: rgb(6, 6, 6);
+    padding: 10px;
+}
+.list-items .list-item-list{
+    flex: 1;
+}
+.list-items .list-item.icon{
+    padding-left: 5px;
+    font-size: 25px;
+}
+#complete{
+    color: green;
+}
+#delete{
+    color: red;
+}
+#edit{
+    color: blue;
+}
+
+#complete,#delete,#edit:hover{
+    cursor: pointer;
+}
+#list-items{
+    text-decoration: line-through;
+    opacity: 0.3;
+}
